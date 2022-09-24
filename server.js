@@ -18,6 +18,11 @@ app.get('/', (req, res) => {
     })
 })
 
+// CONTROLLERS 
+const bandsController = require('./controllers/bands_controller')
+app.use('/bands', bandsController)
+
+
 // SEQUELIZE CONNECTION
 // const sequelize = new Sequelize(process.env.PG_URI)
 
