@@ -13,7 +13,7 @@ module.exports = {
 
     const eventSaved = await queryInterface.bulkInsert('events', [{
       name: "Lolla",
-      date: "2022-01-17T04:33:12.000Z",
+      //date: "2022-01-17T04:33:12.000Z",
       start_time: "2022-01-17T01:33:12.000Z",
       end_time: "2022-01-17T20:33:12.000Z"
     }])

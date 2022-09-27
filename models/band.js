@@ -42,11 +42,12 @@ module.exports = (sequelize, DataTypes) => {
     end_time: {
       type: DataTypes.DATE,
       allowNull: false
-    },
-    recommendation: {
-      type: DataTypes.STRING,
-      allowNull: true
     }
+    // ,
+    // recommendation: {
+    //   type: DataTypes.STRING,
+    //   allowNull: true
+    // }
   }, {
     sequelize,
     modelName: 'Band',
